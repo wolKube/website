@@ -5,28 +5,28 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Sophia L.",
+    designation: "CTO @ FutureTech Solutions",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "The on-demand staffing service was a game-changer for us. The team seamlessly integrated with our existing developers, and the results were outstanding from day one.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Mark R.",
+    designation: "Product Manager @ InnovateNow",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Their agile approach and attention to detail made the development process smooth and efficient. I was impressed by how quickly they turned our idea into a functional prototype.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Emil K.",
+    designation: "Founder @ GreenWave Apps",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "From UI/UX design to implementation, their expertise exceeded my expectations. The team not only delivered on time but also helped us refine our vision along the way.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +37,8 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our Users Say"
+          paragraph="Our customers value our commitment to delivering high-quality solutions and exceptional service. Whether it's rapid implementation, seamless collaboration, or expert guidance, their positive feedback inspires us to continually strive for excellence. Here’s what a few of them have to say:"
           center
         />
 

@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="TaaS - Technology as a Service"
+                paragraph="Our goal is to quickly and efficiently deliver an initial live version of your idea, enabling us to gather and integrate user and stakeholder feedback through short, iterative development cycles."
                 mb="44px"
               />
 
@@ -35,15 +35,13 @@ const AboutSectionOne = () => {
               >
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="A Product Owner, who collaborates with stakeholders to define project requirements and oversees implementation and quality assurance." />
+                    <List text="A Scrum Master, who ensures a seamless development process." />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Experienced Developers, who focus on delivering high-quality, technically sound, and well-documented solutions." />
+                    <List text="Unlike newly formed teams that require months to reach optimal performance, our well-established teams hit the ground running. By skipping the lengthy onboarding phase, you save valuable time while our experts deliver results from day one." />
                   </div>
                 </div>
               </div>
